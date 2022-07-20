@@ -4,6 +4,7 @@ body {
     font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/*Following section is the Style for the Header*/
 .header {
     /*Creating the background for the header and aligning the flex content*/
     background-color: #1F2937;
@@ -40,3 +41,12 @@ a {
     list-style-type: none;
     display: inline-flex;
   }
+
+/* Styling required for the Hero Text*/
+
+.hero{
+    background-color: #1F2937;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
