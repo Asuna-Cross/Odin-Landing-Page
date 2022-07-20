@@ -5,6 +5,7 @@ body {
 }
 
 .header {
+    /*Creating the background for the header and aligning the flex content*/
     background-color: #1F2937;
     display:flex;
     justify-content:space-evenly;
@@ -12,6 +13,7 @@ body {
 }
 
 .left-side{
+    /* Styling the left side of the header which is the logo*/
     display:inline-flex;
     justify-content: flex-start;
     color: #F9FAF8;
@@ -20,9 +22,9 @@ body {
 }
 
 .right-side{
+    /* Styling the links for the header and all things in the right hand side*/
     display:inline-flex;
     justify-content: flex-end;
-    color: #e5e7eb;
     font-size:18px;
 }
 
@@ -30,6 +32,7 @@ body {
 a {
     /* this removes the line under our links */
     text-decoration: none;
+    color: #e5e7eb;
     margin: 15px;
   }
   
