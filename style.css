@@ -47,6 +47,24 @@ a {
 .hero{
     background-color: #1F2937;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items:center;
+}
+
+.hero-text{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    width:450px;
+}
+
+.hero-title{
+    color:#F9FAF8;
+    font-size:48px;
+    font-weight:bolder;
+}
+
+.hero-text{
+    color:#e5e7eb;
+    font-size:18px;
 }
