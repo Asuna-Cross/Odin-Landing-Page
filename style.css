@@ -124,6 +124,30 @@ a {
     font-weight:bolder;
 }
 
+/*Quote Section*/
+.qoute{
+    display:flex;
+    flex-direction:column;
+    background: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.qoute-text{
+    width:800px;
+    font-size:36px;
+    color: #1F2937;
+    font-weight:lighter;
+    font-style: italic;
+}
+
+.qoute-name{
+    display:flex;
+    width:800px;
+    justify-content: flex-end;
+}
 
 /*General styling for items*/
 button{
