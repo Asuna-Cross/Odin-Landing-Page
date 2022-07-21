@@ -72,6 +72,14 @@ a {
     font-size:18px;
 }
 
+.hero-image{
+    width:450px;
+    height:200px;
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 button{
     margin-top: 10px;
     border-radius: 8px;
