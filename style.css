@@ -90,14 +90,28 @@ a {
     padding-bottom: 100px;
 }
 
+/*Individual boxes for each image/text combination*/
 .boxes {
+    display:flex;
+    flex-direction: column;
     justify-content: center;
-    width:200px;
+    flex-flow:flow;
+    width:150px;
     text-align: center;
     margin: 52px;
     margin-top: 32px;
   }
 
+  /*Placeholder image for images*/
+.inform-image{
+    width:150px;
+    height:150px;
+    border: 5px;
+    border-radius: 25px;
+    border-style:solid;
+    border-color: #3882F6;
+    margin-bottom: 20px;
+}
 
 /*Styling the head seperately for ease of use*/
 .info-head{
@@ -110,9 +124,7 @@ a {
     font-weight:bolder;
 }
 
-.boxes{
-    display:inline-flex;
-}
+
 /*General styling for items*/
 button{
     /*Creating the button*/
