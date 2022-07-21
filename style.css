@@ -45,6 +45,7 @@ a {
 /* Styling required for the Hero Text*/
 
 .hero{
+    /*Creating the container for the hero text section*/
     background-color: #1F2937;
     padding-top: 100px;
     padding-bottom:100px;
@@ -54,25 +55,25 @@ a {
 }
 
 .hero-text{
+    /*The Left hand side of the hero box including all text*/
     padding:5px;
     display:flex;
     flex-direction: column;
     flex-wrap:wrap;
     width:450px;
+    color:#e5e7eb;
+    font-size:18px;
 }
 
 .hero-title{
+    /*Styling specifcally for the hero-text*/
     color:#F9FAF8;
     font-size:48px;
     font-weight:bolder;
 }
 
-.hero-text{
-    color:#e5e7eb;
-    font-size:18px;
-}
-
 .hero-image{
+    /*Box for an image placeholder*/
     width:450px;
     height:200px;
     background: grey;
@@ -80,7 +81,9 @@ a {
     align-items: center;
     justify-content: center;
 }
+
 button{
+    /*Creating the button*/
     margin-top: 10px;
     border-radius: 8px;
     max-width: 100px;
